@@ -8,11 +8,10 @@ After i gather a little more of front-end experience, it'll be also some front-e
 
 - backend
     - language
-        - pure/framework 
+        - native/framework 
 - frontend
     - html/css
-    - media
     - javascript
-        - pure/framework 
+        - native/framework 
 - infrastructure
     - _still not so sure, but something to get you up and running with fewer steps as possible_
