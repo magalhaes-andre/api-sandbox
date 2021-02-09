@@ -1,8 +1,10 @@
-# That Simple Crud
+# Api Sandbox
 
-_What is this all about?_
+_What is this repository about?_
 
-Actually, the title speaks for itself, instead of having one new repo on my github for each basic CRUD API i create in order to have a minimal understanding of a language, i'll have all of them stacked here in a simple file organization:
+Aside of having different repositories with repetitive projects related to api development/testing for different languages, i prefer to have a single one with my different studies explicited here. Down below you can check the desired structure for each language, considering also usage or not of frameworks.
+
+After i gather a little more of front-end experience, it'll be also some front-end technologies also, mainly consuming the apis developed here.
 
 - backend
     - language
@@ -14,7 +16,3 @@ Actually, the title speaks for itself, instead of having one new repo on my gith
         - pure/framework 
 - infrastructure
     - _still not so sure, but something to get you up and running with fewer steps as possible_
-
-Here it is the design of the application purpose using C4 Diagrams as a basis:
-
-_not yet implemented_
