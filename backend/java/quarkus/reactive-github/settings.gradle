@@ -9,3 +9,5 @@ pluginManagement {
     }
 }
 rootProject.name='reactive-github'
+include 'java'
+
