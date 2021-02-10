@@ -16,6 +16,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-logging-json'
     implementation 'io.quarkus:quarkus-rest-client-mutiny'
     implementation 'io.quarkus:quarkus-arc'
+    implementation 'io.quarkus:quarkus-resteasy-jackson'
     testImplementation 'io.quarkus:quarkus-junit5'
 }
 
