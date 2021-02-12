@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a67e64c-ccf9-4753-969a-b49784d38969" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/service/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_api/WordApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/WordApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_api/api/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/resource/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_api/model/Messager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/service/Messager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_api/model/ScrambledMessager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/service/ScrambledMessager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_api/model/SimpleMessager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/magalhaes_andre/word_scrambler/service/SimpleMessager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oIWgcnAyNxRWr6hvtfOUNuKUm2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.magalhaes_andre.word_scrambler.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BasicRestApiApplicationTests">
+    <configuration name="WordApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.magalhaes_andre.word_scrambler.WordApiApplication" />
+      <module name="word-scrambler.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.magalhaes_andre.word_scrambler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicRestApiApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.magalhaes_andre.basicrestapi.BasicRestApiApplicationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleMessagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.magalhaes_andre.basicrestapi.service.SimpleMessagerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleMessagerTest.messageGetsReturnedAsSended" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.magalhaes_andre.basicrestapi.service.SimpleMessagerTest.messageGetsReturnedAsSended&quot; --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BasicRestApiApplicationTests" />
+        <item itemvalue="Gradle.SimpleMessagerTest" />
+        <item itemvalue="Gradle.SimpleMessagerTest.messageGetsReturnedAsSended" />
+        <item itemvalue="Application.WordApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a67e64c-ccf9-4753-969a-b49784d38969" name="Default Changelist" comment="" />
+      <created>1612974697206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612974697206</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1612981756112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1612981756112" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612980883163">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1612980883163" />
+    <state width="1398" height="314" key="GridCell.Tab.0.bottom" timestamp="1612984255710">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="314" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612984255710" />
+    <state width="1398" height="314" key="GridCell.Tab.0.center" timestamp="1612984255709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="314" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612984255709" />
+    <state width="1398" height="314" key="GridCell.Tab.0.left" timestamp="1612984255709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="314" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612984255709" />
+    <state width="1398" height="314" key="GridCell.Tab.0.right" timestamp="1612984255710">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="314" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612984255710" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612983383107">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612983383107" />
+  </component>
+</project>
