@@ -1,4 +1,4 @@
-package com.magalhaes_andre.validation.api;
+package com.magalhaes_andre.validation.resource;
 
 import javax.validation.Valid;
 
@@ -11,7 +11,7 @@ import com.magalhaes_andre.validation.model.Document;
 
 @RestController
 @RequestMapping("/")
-public class Receiver {
+public class Validator {
 
 	@PostMapping("document/")
 	public Document receivesDocument(@Valid @RequestBody Document receivedDocument) {
