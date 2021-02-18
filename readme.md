@@ -1,17 +1,14 @@
-# Api Sandbox
+# Java Playground
 
 _What is this repository about?_
 
-Aside of having different repositories with repetitive projects related to api development/testing for different languages, i prefer to have a single one with my different studies explicited here. Down below you can check the desired structure for each language, considering also usage or not of frameworks.
+This repository stores mainly some playful projects around Java, including trying to understand concepts, best practices, frameworks and libraries i'm interested in testing.
 
-After i gather a little more of front-end experience, it'll be also some front-end technologies also, mainly consuming the apis developed here.
+*repository structure:*
+root/
+    - framework/
+        - project/
+    - concept/
+        -project- 
 
-- backend
-    - language
-        - native/framework 
-- frontend
-    - html/css
-    - javascript
-        - native/framework 
-- infrastructure
-    - _still not so sure, but something to get you up and running with fewer steps as possible_
+...ideally every project have some kind of simplification for it to run ("./gradlew boot run" kind of instruction doesn't count). And also every project should have at least a readme explaining what the project's about.
