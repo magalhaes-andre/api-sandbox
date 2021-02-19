@@ -3,6 +3,10 @@ plugins {
     id 'io.quarkus'
 }
 
+ext {
+    lombok = "1.18.8"
+}
+
 repositories {
     mavenLocal()
     mavenCentral()
@@ -17,6 +21,9 @@ dependencies {
     implementation 'io.quarkus:quarkus-rest-client-mutiny'
     implementation 'io.quarkus:quarkus-arc'
     implementation 'io.quarkus:quarkus-resteasy-jackson'
+    implementation 'org.projectlombok:lombok:1.18.16'
+    compileOnly "org.projectlombok:lombok:${lombok}"
+    annotationProcessor "org.projectlombok:lombok:${lombok}"
     testImplementation 'io.quarkus:quarkus-junit5'
 }
 

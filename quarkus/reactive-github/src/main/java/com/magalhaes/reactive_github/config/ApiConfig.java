@@ -1,40 +1,18 @@
 package com.magalhaes.reactive_github.config;
 
-import org.eclipse.microprofile.config.inject.ConfigProperty;
+import io.quarkus.arc.config.ConfigProperties;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import javax.inject.Singleton;
-
-@Singleton
+@ConfigProperties(prefix = "api", namingStrategy = ConfigProperties.NamingStrategy.KEBAB_CASE)
+@AllArgsConstructor
+@NoArgsConstructor
+@Setter
+@Getter
 public class ApiConfig {
 
-    @ConfigProperty(name = "api.token")
-    private String token;
-    @ConfigProperty(name = "api.uri")
-    private String uri;
-
-    public ApiConfig(String token, String uri) {
-        this.token = token;
-        this.uri = uri;
-    }
-
-    public ApiConfig() {
-        this.token = null;
-        this.uri = null;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
-
-    public String getUri() {
-        return uri;
-    }
-
-    public void setUri(String uri) {
-        this.uri = uri;
-    }
+    protected String token;
+    protected String uri;
 }

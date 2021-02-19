@@ -1,4 +1,10 @@
 api:
   token: testToken
   uri: testUri
-
+oauth:
+  client-id: test
+  redirect-uri: test
+  login: test
+  scope: test
+  state: test
+  allow-signup: "false"

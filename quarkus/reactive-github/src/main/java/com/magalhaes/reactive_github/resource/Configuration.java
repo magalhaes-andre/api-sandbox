@@ -1,11 +1,11 @@
 package com.magalhaes.reactive_github.resource;
 
 import com.magalhaes.reactive_github.config.ApiConfig;
+import com.magalhaes.reactive_github.config.OAuthConfig;
 import io.smallrye.mutiny.Uni;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -18,19 +18,21 @@ import java.util.Map;
 public class Configuration {
 
     @Inject
-    private ApiConfig config;
+    private ApiConfig apiConfig;
+    @Inject
+    private OAuthConfig oauthConfig;
 
     @Path("config")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Uni<Map<String, String>> configCheck(){
+    public Uni<Map<String, Object>> configCheck(){
         return Uni.createFrom().item(configs());
     }
 
-    public Map<String, String> configs(){
-        Map<String, String> configs = new HashMap<String, String>();
-        configs.put("token", config.getToken());
-        configs.put("uri", config.getUri());
+    private Map<String, Object> configs() {
+        Map<String, Object> configs =  new HashMap<>();
+        configs.put("API", apiConfig);
+        configs.put("OAuth", oauthConfig);
         return configs;
     }
 }
