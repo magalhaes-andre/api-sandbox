@@ -1,8 +1,9 @@
 package com.magalhaes.reactive_github.resource;
 
 import com.magalhaes.reactive_github.config.ApiConfig;
-import com.magalhaes.reactive_github.config.OAuthConfig;
+import com.magalhaes.reactive_github.config.HttpAuthConfig;
 import io.smallrye.mutiny.Uni;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -15,12 +16,13 @@ import java.util.Map;
 
 @Path("/")
 @ApplicationScoped
-public class Configuration {
+@Slf4j
+public class ConfigurationResource {
 
     @Inject
     private ApiConfig apiConfig;
     @Inject
-    private OAuthConfig oauthConfig;
+    private HttpAuthConfig oauthConfig;
 
     @Path("config")
     @GET

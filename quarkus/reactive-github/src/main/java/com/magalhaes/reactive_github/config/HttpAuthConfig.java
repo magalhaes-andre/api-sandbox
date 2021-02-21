@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class OAuthConfig {
+public class HttpAuthConfig {
 
     protected String clientId;
     protected String redirectUri;
