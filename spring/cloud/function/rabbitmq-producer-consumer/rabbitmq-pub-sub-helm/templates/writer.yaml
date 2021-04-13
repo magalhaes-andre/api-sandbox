@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: writer
+spec:
+  selector:
+    app: writer
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: writer
+  labels:
+    app: writer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: writer
+  template:
+    metadata:
+      labels:
+        app: writer
+    spec:
+      containers:
+      - name: writer
+        image: messaging-writer
+        imagePullPolicy: Never
